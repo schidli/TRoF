@@ -1,0 +1,129 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{book}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\newlength{\cslentryspacingunit} % times entry-spacing
+\setlength{\cslentryspacingunit}{\parskip}
+\newenvironment{CSLReferences}[2] % #1 hanging-ident, #2 entry spacing
+ {% don't indent paragraphs
+  \setlength{\parindent}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1
+  \let\oldpar\par
+  \def\par{\hangindent=\cslhangindent\oldpar}
+  \fi
+  % set entry spacing
+  \setlength{\parskip}{#2\cslentryspacingunit}
+ }%
+ {}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{#1\hfill\break}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{#1}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{#1}\break}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  pdftitle={The Role of Forest in Mountain Risk Engineering},
+  pdfauthor={Christian Scheidl and Micha Heiser},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\title{The Role of Forest in Mountain Risk Engineering}
+\author{Christian Scheidl and Micha Heiser}
+\date{2023-04-28}
+
+\begin{document}
+\maketitle
+
+{
+\setcounter{tocdepth}{1}
+\tableofcontents
+}
+\hypertarget{preface}{%
+\chapter*{Preface}\label{preface}}
+\addcontentsline{toc}{chapter}{Preface}
+
+Managed in a sustainable way, forest have the potential to fulfill many important functions like soil protection, protection against natural hazards, renewable source of raw materials and energy, job creation, climate protection, conservation of ecosystems and preservation of the alpine landscape (\protect\hyperlink{ref-Dellagiacoma2016}{Dellagiacoma et al. 2016}). Thus, forests and specifically protective forests influence cultural identity of many mountainous countries to a considerable extent.
+
+In German-speaking countries the particular designation of a forest that contributes to protection against natural hazards is called ``Schutzwald''. An international translation of this term to English can be found within the framework of the ``Wildland Fire Management Terminology'' from 2005, developed by the UN agency FAO (Food and Agriculture Organization of the United Nations). Here, the term ``Schutzwald'' is translated as protection forest. However, the word ``protection'' often leads to confusion in English usage, as this term is also used in connection with nature conservation or the deliberate non-use of forests. Following the FAO publication by Makino and Rudolf-Miklau (\protect\hyperlink{ref-Makino2021}{2021}), this textbook therefore uses the term \textbf{protective forest} to illustrate the challenges of the different meanings and consequences of the role of forests in minimising the risk from natural hazards.
+
+This textbook represents the current state of knowledge about the protective effect of temperate forests in steep and small catchment areas. It refers primarily to findings that have been made in the European Alpine region and offers students the opportunity to explore their understanding of processes and basic concepts.
+
+\hypertarget{refs}{}
+\begin{CSLReferences}{1}{0}
+\leavevmode\vadjust pre{\hypertarget{ref-Dellagiacoma2016}{}}%
+Dellagiacoma, F., A. Ballarin-Denti, F. Brosinger, W. Burhenne, E. Calvo, L. Cetara, C. Durr, et al. 2016. \emph{The {Statement} on the {Value} of {Alpine Forests} and the {Alpine Convention}'s {Protocol} on {Mountain Forests} in the Framework of the International Forestry Policies Beyond 2015}. Edited by Paolo Angelini and Markus Reiterer. {Alpine Convention}. \url{https://www.alpconv.org/fileadmin/user_upload/Publications/Alpine_Forest_2015.pdf}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-Makino2021}{}}%
+Makino, Y., and F. Rudolf-Miklau. 2021. \emph{The Protective Functions of Forests in a Changing Climate - {European} Experience}. Documento de Trabajo Forestal 26. {Rome, Italy}: {FAO and Austrian Federal Ministry for Agriculture, Regions and Tourism}. \url{https://doi.org/10.4060/cb4464en}.
+
+\end{CSLReferences}
+
+\end{document}

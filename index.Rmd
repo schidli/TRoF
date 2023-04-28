@@ -1,0 +1,22 @@
+--- 
+title: "The Role of Forest in Mountain Risk Engineering"
+author: "Christian Scheidl and Micha Heiser"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+bibliography: [book.bib]
+biblio-style: harvard
+link-citations: yes
+github-repo: rstudio/bookdown-demo
+description: "The output format for this example is bookdown::gitbook."
+---
+
+# Preface {-}
+
+Managed in a sustainable way, forest have the potential to fulfill many important functions like soil protection, protection against natural hazards, renewable source of raw materials and energy, job creation, climate protection, conservation of ecosystems and preservation of the alpine landscape [@Dellagiacoma2016]. Thus, forests and specifically protective forests influence cultural identity of many mountainous countries to a considerable extent.
+
+In German-speaking countries the particular designation of a forest that contributes to protection against natural hazards is called "Schutzwald". An international translation of this term to English can be found within the framework of the "Wildland Fire Management Terminology" from 2005, developed by the UN agency FAO (Food and Agriculture Organization of the United Nations). Here, the term "Schutzwald" is translated as protection forest. However, the word "protection" often leads to confusion in English usage, as this term is also used in connection with nature conservation or the deliberate non-use of forests. Following the FAO publication by @Makino2021, this textbook therefore uses the term **protective forest** to illustrate the challenges of the different meanings and consequences of the role of forests in minimising the risk from natural hazards.
+
+This textbook represents the current state of knowledge about the protective effect of temperate forests in steep and small catchment areas. It refers primarily to findings that have been made in the European Alpine region and offers students the opportunity to explore their understanding of processes and basic concepts.
+
